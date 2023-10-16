@@ -1,0 +1,4 @@
+input: 3,4,4,9,15,-3
+expected: -3,3,4,4,9,15
+actual: -3,3,4,4,9,15
+result: true

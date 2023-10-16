@@ -1,0 +1,15 @@
+how to run code
+
+The code is written in Javascript and intended to run on Node.js.
+To run the code, you need to have Node.js installed on your computer.
+Then you can run the code by typing `node 2a.js` in the terminal.
+
+How it works:
+The program works by generating a random array of numbers and then sorting them using the bubble sort algorithm.
+The randomly generated array is created in such a way that the generated numbers are already sorted. This provides
+an expected output for the tests. The sorted arrays are then scrambled to an unsorted state. The unsorted array is then
+fed into bubble sort and the result is compared to the expected results (the one that was randomly generated). The input,
+expected and actual arrays are written to log files in /2a-logs.
+
+I did not purposefully include a bug in the sort but if there was one, the comparison between the output and the expected array
+would detect it. 

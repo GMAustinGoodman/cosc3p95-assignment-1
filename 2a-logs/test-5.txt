@@ -1,0 +1,4 @@
+input: 2,0,1
+expected: 0,1,2
+actual: 0,1,2
+result: true
